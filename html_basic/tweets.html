@@ -5,25 +5,45 @@
     <title>My Tweets</title>
   </head>
   <body>
-    <h1>My Favorite Tweet</h1>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
 
-    <!-- Example embedded tweet (replace with your own if you want) -->
-    <blockquote class="twitter-tweet">
-      <p lang="en" dir="ltr">
-        Learning never exhausts the mind. – Leonardo da Vinci
+    <main>
+      <article>
+        <h1>My Favorite Tweet</h1>
+
+        <!-- Example embedded tweet -->
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            Learning never exhausts the mind. – Leonardo da Vinci
+          </p>
+          &mdash; Inspiring Quotes (@InspiringQuote)
+          <a
+            href="https://twitter.com/InspiringQuote/status/1619441934214813697"
+            >January 28, 2023</a
+          >
+        </blockquote>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+      </article>
+
+      <aside>
+        <p>placeholder to add comment thread later</p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>
+        Made by [Your Name] -
+        <a href="https://github.com" target="_blank">here</a>
       </p>
-      &mdash; Inspiring Quotes (@InspiringQuote)
-      <a href="https://twitter.com/InspiringQuote/status/1619441934214813697"
-        >January 28, 2023</a
-      >
-    </blockquote>
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
-
-    <!-- Link back to homepage -->
-    <p><a href="index.html">Back to Homepage</a></p>
+    </footer>
   </body>
 </html>
